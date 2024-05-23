@@ -10,12 +10,12 @@ from gtts import gTTS
 mytext = 'Welcome to me'
 language = 'en'
 # from os.path import join, dirname
-# import matplotlib.pyplot as plt
+ #import matplotlib.pyplot as plt
 # ^ matplotlib is great for visualising data and for testing purposes but usually not needed for production
-openai.api_key='sk-proj-PZlC9OU4BHzn1BXpyNR2T3BlbkFJYFxwKkz2dOmyrNbrezxd'
+openai.api_key='sk-proj-FZu7e9kylHgqQnNiOrXYT3BlbkFJwcvJNAA3W03pp2iFzR0v'
 load_dotenv()
 model = 'gpt-3.5-turbo'
-model = 'gpt-4'
+#model = 'gpt-4'
 # Set up the speech recognition and text-to-speech engines
 r = sr.Recognizer()
 engine = pyttsx3.init("dummy")
